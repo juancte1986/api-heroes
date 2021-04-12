@@ -52,10 +52,9 @@ héroes.
 ## Commands 
 - run: 
 mvn clean package; java -jar target/api-heroes-1.0.jar
-```
+
 - install: 
 mvn clean install
-```
 - test: 
 mvn clean test
 
