@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+
+  api-heroes:
+    container_name: api-heroes
+    image: api-heroes
+    restart: always
+    ports:
+      - 8080:8080
+#docker network create --driver=bridge --subnet=172.15.0.0/16 --gateway=172.15.0.1 net_172_15
